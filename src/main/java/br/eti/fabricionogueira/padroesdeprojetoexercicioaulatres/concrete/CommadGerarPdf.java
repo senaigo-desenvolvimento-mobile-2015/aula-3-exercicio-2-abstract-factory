@@ -1,4 +1,4 @@
-package br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete;
+package br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete;
 
 import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.ImprimeMensagem;
 import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.BaseCommand;
@@ -8,9 +8,9 @@ import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.BaseCom
  * @author Fabricio Nogueira (nogsantos)
  * @since Nov 21, 2015
  */
-public class CommadGerarXml implements BaseCommand{
+public final class CommadGerarPdf implements BaseCommand{
 
-    public CommadGerarXml() {
+    public CommadGerarPdf() {
         ImprimeMensagem.getInstance().prepare();
         executar();
         ImprimeMensagem.getInstance().ending();

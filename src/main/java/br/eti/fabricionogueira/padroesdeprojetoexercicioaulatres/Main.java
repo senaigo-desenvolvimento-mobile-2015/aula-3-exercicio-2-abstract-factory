@@ -1,9 +1,9 @@
 package br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres;
 
-import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete.ConcreteFactoryA;
-import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete.ConcreteFactoryB;
-import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete.ConcreteFactoryC;
-import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete.ConcreteFactoryD;
+import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete.ConcreteFactoryA;
+import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete.ConcreteFactoryB;
+import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete.ConcreteFactoryC;
+import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete.ConcreteFactoryD;
 import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.factory.AbstractFactory;
 import java.util.InputMismatchException;
 import java.util.Scanner;

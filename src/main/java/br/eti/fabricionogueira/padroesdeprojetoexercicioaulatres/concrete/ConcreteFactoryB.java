@@ -1,4 +1,4 @@
-package br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.command.concrete;
+package br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.concrete;
 
 import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.factory.AbstractFactory;
 import br.eti.fabricionogueira.padroesdeprojetoexercicioaulatres.factory.AbstractProductFactory;
